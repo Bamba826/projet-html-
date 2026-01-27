@@ -1,0 +1,64 @@
+h1{
+    color: rgb(218, 198, 89);
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+body{
+    background-color: floralwhite;
+}
+#table{
+    color: rgb(216, 197, 89);
+    margin: auto;
+    font-size: 30px;
+    font-style: italic;
+    border-spacing: 250px 30px;
+    background-color:floralwhite;
+    background-color: rgb(236, 234, 222);
+}
+#Menu{
+    text-align: center;
+}
+
+#apropos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+h2{
+    color: rgb(216, 199, 89);
+    text-align: center;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    grid-gap: 150px;    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(218, 199, 89);
+    }
+
+
+input{
+       width: 100%; 
+       background-color: beige; 
+       border-color: rgb(216, 197, 90);
+       outline: none;
+       border-radius: 5px;
+       height: 20px;
+    }
+    form{
+        max-width: 400px;
+        margin:auto;
+    }
+
