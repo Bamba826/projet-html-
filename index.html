@@ -1,70 +1,103 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- implementation de la barre de navigation -->
-     <header>
-        <h1> Menu des délicieuses bouchées </h1>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VP+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">A-propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Voyagez</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+    
+    <section>
 
-        <nav>
-            <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="#apropos">A-propos</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-     </header>
-    <!-- Section apropos -->
-    <section id="apropos">
-        <h2>A propos de nous</h2>
-        <p id="apropos">Menu des Délicieuses Bouchées est un restaurant chaleureux où chaque plat est une invitation au plaisir et à la découverte. Nous vous proposons une sélection de mets savoureux, préparés avec des ingrédients frais et de qualité, alliant tradition et créativité. Que ce soit pour un déjeuner rapide, un dîner en famille ou un moment convivial entre amis, nos délicieuses bouchées raviront vos papilles à chaque visite. Ici, le goût, la générosité et la satisfaction du client sont au cœur de notre cuisine.</p>
 
+
+        <section class="hero">
+            <div>
+              <h1>Voyage Plus +</h1>
+           <p>Explorez le monde avec Voyage+</p>
+          </div>
+                
+        </section>
+        
+        <section>
+          <h2>A propos de VP+</h2>
+          <div>
+            <p>Bienvenue sur Voyage Plus, votre portail vers des aventures inoubliables. Découvrez des destinations fascinantes, des conseils de voyage et des offres exclusives pour rendre vos voyages encore plus mémorables. Que vous soyez un aventurier en quête de sensations fortes ou un amateur de détente sur la plage, nous avons tout ce qu'il vous faut pour planifier votre prochaine escapade.</p>
+          </div>
+        </section>
+        <div class="l1">
+<div class="card" style="width: 18rem;">
+  <img src="assets/Étudier à l'étranger _ nos experts vous répondent en direct.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Etudes </h5>
+    <p class="card-text"> Pour vos études à l'etranger</p>
+    <a href="#" class="btn btn-primary">Tap</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="assets/Voici les aides dont vous pouvez bénéficier pour partir en vacances cet été.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Vacances </h5>
+    <p class="card-text">Pour vos vacances d'été et d'hiver</p>
+    <a href="#" class="btn btn-primary">Tap</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="assets/Le tour du monde - Chansons d'école.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Découvertes </h5>
+    <p class="card-text">Allez Explorer le monde avec nous</p>
+    <a href="#" class="btn btn-primary">Tap</a>
+  </div>
+</div>
+</div>
+<section>
+<h3 class="tero">contactez-nous</h3>
+<form class="mero">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</section>
     </section>
-    <!-- Section Menu -->
-     <section id="Menu">
-        <h2 id="Menu">Menu</h2>
-        <table id="table">
-            <tr>
-                <th>Menu</th>
-                <th>prix(Fcfa)</th>
-            </tr>
-            <tr>
-                <td>Yassa</td>
-                <td>1000</td>
-            </tr>
-            <tr>
-                <td>Mafé</td>
-                <td>1500</td>
-            </tr>
-            <tr>
-                <td>Domoda</td>
-                <td>2000</td>
-            </tr>
-        </table>
-     </section>
 
-     <!-- Section Contact -->
-      <section id="Contact">
-        <h2>Contact</h2>
-       <form>
-        <label> Name: </label><br>
-        <input type="text" name="first name" placeholder="type your name here"><br>
-        <label> TEL: </label><br>
-        <input type="number" name="number"><br>
-        <label> email:  </label><br>
-        <input type="email"><br>
-
-
-        <input type="submit"><br>
-       </form>
-
-
-      </section>
+    
 </body>
-</html>
+</html
